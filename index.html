@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Javascript 3</title>
+    <style>
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+      }
+
+      table {
+        border-collapse: collapse;
+      }
+
+      th,
+      td {
+        border: 1px solid black;
+        padding: 5px;
+      }
+
+      tr :first-child {
+        border-left: 0;
+      }
+      tr :last-child {
+        border-right: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <script type="module" src="main.js"></script>
+    <h1>Javascript Web Output #3</h1>
+    <button id="fetch-button">Load data from the API</button>
+    <button id="clear-button">Clear Table</button>
+    <p>API: <a href="" id="api"></a></p>
+    <table id="data-table"></table>
+  </body>
+</html>
